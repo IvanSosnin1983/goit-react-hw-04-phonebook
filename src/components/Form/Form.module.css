@@ -1,0 +1,30 @@
+.label {
+  display: block;
+  margin-bottom: 6px;
+}
+.input {
+  margin-top: 3px;
+  display: block;
+  font-size: 15px;
+}
+
+.form {
+  padding: 10px;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 6px;
+}
+.button {
+  min-width: 100px;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+.button:hover {
+  background-color: rgba(207, 206, 204, 0.877);
+}

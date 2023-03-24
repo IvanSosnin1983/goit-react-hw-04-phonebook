@@ -1,0 +1,27 @@
+.item {
+  display: block;
+  margin: 0;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.button {
+  min-width: 100px;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+.button:hover {
+  background-color: rgba(207, 206, 204, 0.877);
+}
